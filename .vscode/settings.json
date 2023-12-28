@@ -29,12 +29,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "json.schemas": [
-    {
-      "fileMatch": ["/manifest.json"],
-      "url": "http://json.schemastore.org/chrome-manifest"
-    }
-  ],
   "files.associations": {
     "*.env.development": "env",
     "*.env": "env"

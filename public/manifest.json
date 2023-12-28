@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Cosmostation Sandbox",
+  "name": "Docs site for interactive checks on Cosmos Station app features.",
   "icons": [
     {
       "src": "favicon.ico",
