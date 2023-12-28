@@ -1,8 +1,8 @@
 import { styled } from '@mui/material/styles';
 
-export const Background = styled('div')({
+export const Background = styled('div')(({ theme }) => ({
   width: '100%',
   minHeight: '100vh',
 
-  backgroundColor: 'orange',
-});
+  backgroundColor: theme.colors.base04,
+}));
