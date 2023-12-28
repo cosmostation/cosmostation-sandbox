@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start:dev": "react-scripts start",
+    "start:dev": "react-app-rewired start",
     "prestart:prod": "yarn run build",
-    "start:prod": "react-scripts start",
+    "start:prod": "react-app-rewired start",
     "prebuild": "rimraf build",
-    "build": "react-scripts build",
+    "build": "react-app-rewired build",
     "postinstall": "git config --local core.hooksPath ./.git-hooks",
     "eslint": "eslint --max-warnings 0 $(git diff --name-only --diff-filter=AMRC HEAD | grep -E '.(ts|tsx)$' | xargs)"
   },
@@ -36,6 +36,7 @@
     "@types/node": "^16.11.56",
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
+    "customize-cra": "^1.0.0",
     "eslint": "^8.23.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -47,6 +48,8 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "react-app-rewire-alias": "^1.1.7",
+    "react-app-rewired": "^2.2.1",
     "react-scripts": "5.0.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.8.2"

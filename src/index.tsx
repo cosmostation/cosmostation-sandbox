@@ -1,4 +1,4 @@
-import 'src/styles/normalize.css';
+import '~/styles/normalize.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';

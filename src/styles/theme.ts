@@ -1,4 +1,4 @@
-import type { Colors, ThemeStyle } from 'src/types/theme';
+import type { Colors, ThemeStyle } from '~/types/theme';
 
 const systemThemeColors: Colors = {
   base01: '#FFFFFF',
