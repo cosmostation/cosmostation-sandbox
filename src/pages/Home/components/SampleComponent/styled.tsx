@@ -1,6 +1,7 @@
-import Base02Container from 'src/components/Base02Container';
-import { device } from 'src/constants/muiSize';
 import { styled } from '@mui/material/styles';
+
+import Base02Container from '~/components/Base02Container';
+import { device } from '~/constants/muiSize';
 
 export const Container = styled(Base02Container)(({ theme }) => ({
   color: theme.colors.base01,

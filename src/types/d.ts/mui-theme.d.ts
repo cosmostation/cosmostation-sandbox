@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-interface */
 import '@mui/system';
 
-import type { ThemeStyle } from 'src/types/theme';
+import type { ThemeStyle } from '~/types/theme';
 
 declare module '@mui/material/styles' {
   interface Theme extends ThemeStyle {}

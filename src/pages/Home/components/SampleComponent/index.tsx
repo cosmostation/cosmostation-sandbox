@@ -1,5 +1,6 @@
-import { device } from 'src/constants/muiSize';
 import { Typography, useMediaQuery } from '@mui/material';
+
+import { device } from '~/constants/muiSize';
 
 import { Container, TitleContainer } from './styled';
 

@@ -13,8 +13,12 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "typeRoots": ["node_modules/@types", "src/types/d.ts"],
-    "baseUrl": "./"
+    "typeRoots": ["node_modules/@types", "src/types/d.ts"]
+    // "baseUrl": "./src",
+    // "paths": {
+    //   "~/*": ["./*"]
+    // }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "extends": "./tsconfig.paths.json"
 }

@@ -4,5 +4,5 @@ export const Background = styled('div')(({ theme }) => ({
   width: '100%',
   minHeight: '100vh',
 
-  backgroundColor: theme.colors.base02,
+  backgroundColor: theme.colors.base04,
 }));
