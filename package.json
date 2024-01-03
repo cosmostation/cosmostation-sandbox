@@ -5,7 +5,6 @@
   "scripts": {
     "start:dev": "react-app-rewired start",
     "prestart:prod": "yarn run build",
-    "start:prod": "react-app-rewired start",
     "prebuild": "rimraf build",
     "build": "react-app-rewired build",
     "postinstall": "git config --local core.hooksPath ./.git-hooks",
